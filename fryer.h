@@ -28,6 +28,8 @@ public:
 
 	void openLid();
 	void closeLid();
+	void cookButton();
+	void stopCookButton();
 
 
 private:

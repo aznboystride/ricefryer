@@ -44,3 +44,13 @@ void Fryer::closeLid()
 {
 	lidOpen = false;
 }
+
+void Fryer::cookButton()
+{
+	state->cookButton();
+}
+
+void Fryer::stopCookButton()
+{
+	state->stopCookButton();
+}
