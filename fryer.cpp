@@ -40,6 +40,11 @@ Fryerstate * Fryer::GetNotCookingState()
 	return notcookingState;
 }
 
+bool Fryer::isLidOpen()
+{
+	return lidOpen;
+}
+
 void Fryer::openLid()
 {
 	lidOpen = true;
@@ -58,4 +63,14 @@ void Fryer::cookButton()
 void Fryer::stopCookButton()
 {
 	state->stopCookButton();
+}
+
+void Fryer::openLidButton()
+{
+	state->openLidButton();
+}
+
+void Fryer::closeLidButton()
+{
+	state->closeLidButton();
 }

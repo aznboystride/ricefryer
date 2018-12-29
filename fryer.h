@@ -25,14 +25,14 @@ public:
 	Fryerstate* GetCookingState();
 
 	Fryerstate* GetNotCookingState();
-	bool isLidOpen() {
-		return lidOpen;
-	}
+	bool isLidOpen();
 
 	void openLid();
 	void closeLid();
 	void cookButton();
 	void stopCookButton();
+	void openLidButton();
+	void closeLidButton();
 
 
 private:

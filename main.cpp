@@ -5,7 +5,7 @@ int main()
 {
 	Fryer fryer;
 	while (1) {
-		cout << "\n----------Current State----------: " << fryer.Get()->getName() << endl;
+		cout << "\n----------Current State----------: " << fryer.GetState() << endl;
 		cout << "\t1. Cook" << endl;
 		cout << "\t2. Stop Cook" << endl;
 		cout << "\t3. Lock Lid" << endl;
@@ -16,16 +16,16 @@ int main()
 		cout << "\t";
 		switch (ch) {
 		case 1:
-			fryer.();
+			fryer.cookButton();
 			break;
 		case 2:
-			fryer.stopCook();
+			fryer.stopCookButton();
 			break;
 		case 3:
-			fryer.insertRice();
+			fryer.closeLidButton();
 			break;
 		case 4:
-			fryer.removeRice();
+			fryer.openLidButton();
 			break;
 		default:
 			cout << "Invalid Option" << endl;
