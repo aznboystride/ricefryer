@@ -123,7 +123,11 @@
     <ClInclude Include="openlidstate.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="closelidstate.cpp" />
+    <ClCompile Include="cookingstate.cpp" />
     <ClCompile Include="fryer.cpp" />
+    <ClCompile Include="notcookingstate.cpp" />
+    <ClCompile Include="openlidstate.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
