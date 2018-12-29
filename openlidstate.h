@@ -8,6 +8,7 @@ public:
 	void closeLidButton();
 	void cookButton();
 	void stopCookButton();
+	string getName();
 
 private:
 	Fryer* fryer;

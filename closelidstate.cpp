@@ -30,3 +30,8 @@ void CloseLidState::stopCookButton()
 	fryer->setState(fryer->GetNotCookingState());
 	cout << "cooking stopped" << endl;
 }
+
+string CloseLidState::getName()
+{
+	return "CloseLidState";
+}

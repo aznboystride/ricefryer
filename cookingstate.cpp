@@ -25,3 +25,8 @@ void CookingState::stopCookButton()
 	cout << "stopping cooking" << endl;
 	fryer->setState(fryer->GetNotCookingState());
 }
+
+std::string CookingState::getName()
+{
+	return "Cooking State";
+}

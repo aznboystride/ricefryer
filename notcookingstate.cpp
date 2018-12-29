@@ -42,3 +42,8 @@ void NotCookingState::stopCookButton()
 {
 	cout << "already not cooking" << endl;
 }
+
+string NotCookingState::getName()
+{
+	return "NotCookingState";
+}
