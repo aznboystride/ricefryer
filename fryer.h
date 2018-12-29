@@ -16,6 +16,8 @@ public:
 
 	void setState(Fryerstate* state);
 
+	Fryerstate* GetState();
+
 	Fryerstate* GetCloseLidState();
 
 	Fryerstate* GetOpenLidState();

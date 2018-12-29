@@ -15,6 +15,11 @@ void Fryer::setState(Fryerstate * state)
 	this->state = state;
 }
 
+Fryerstate * Fryer::GetState()
+{
+	return state;
+}
+
 Fryerstate * Fryer::GetCloseLidState()
 {
 	return closeLidState;
