@@ -2,6 +2,7 @@
 #define _closelidstate
 #include "fryer.h"
 
+class Fryer;
 class CloseLidState: public Fryerstate {
 public:
 	CloseLidState(Fryer* fry);

@@ -2,7 +2,8 @@
 #define _cookingstate
 #include "fryer.h"
 
-class CookingState {
+class Fryer;
+class CookingState: public Fryerstate {
 public:
 	CookingState(Fryer* fry);
 	void openLidButton();

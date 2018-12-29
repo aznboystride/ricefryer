@@ -1,0 +1,6 @@
+#include "fryer.h"
+
+int main()
+{
+	return 0;
+}

@@ -7,7 +7,7 @@ Fryer::Fryer()
 	cookingState = new CookingState(this);
 	notcookingState = new NotCookingState(this);
 
-	state = notcookingState
+	state = notcookingState;
 }
 
 void Fryer::setState(Fryerstate * state)
