@@ -18,5 +18,25 @@
     <ClInclude Include="fryer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="fryerstate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cookingstate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="openlidstate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="closelidstate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="notcookingstate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="fryer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

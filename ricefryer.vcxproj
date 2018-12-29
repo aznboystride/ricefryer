@@ -115,7 +115,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="cookingstate.h" />
     <ClInclude Include="fryer.h" />
+    <ClInclude Include="fryerstate.h" />
+    <ClInclude Include="closelidstate.h" />
+    <ClInclude Include="notcookingstate.h" />
+    <ClInclude Include="openlidstate.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="fryer.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
