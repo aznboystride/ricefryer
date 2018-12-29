@@ -2,5 +2,6 @@
 
 std::ostream & operator<<(std::ostream & os, Fryerstate * state)
 {
-	os << state->
+	os << state->getName();
+	return os;
 }

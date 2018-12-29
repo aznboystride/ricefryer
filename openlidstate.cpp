@@ -27,7 +27,7 @@ void OpenLidState::stopCookButton()
 	cout << "lid is open, so it wasn't cooking" << endl;
 }
 
-string OpenLidState::getName()
+std::string OpenLidState::getName()
 {
 	return "OpenLidState";
 }

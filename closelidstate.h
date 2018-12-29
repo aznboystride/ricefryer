@@ -10,7 +10,7 @@ public:
 	void closeLidButton();
 	void cookButton();
 	void stopCookButton();
-	string getName();
+	std::string getName();
 
 private:
 	Fryer* fryer;

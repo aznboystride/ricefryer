@@ -1,6 +1,7 @@
 #ifndef _fryer
 #define _fryer
 #include <iostream>
+#include <string>
 #include "fryerstate.h"
 #include "cookingstate.h"
 #include "closelidstate.h"

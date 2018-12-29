@@ -1,6 +1,7 @@
 #ifndef _fryerstate
 #define _fryerstate
 #include <iostream>
+#include <string>
 class Fryerstate {
 public:
 	virtual void openLidButton() = 0;
@@ -8,6 +9,6 @@ public:
 	virtual void cookButton() = 0;
 	virtual void stopCookButton() = 0;
 	virtual std::string getName() = 0;
-	virtual friend std::ostream& operator<<(std::ostream& os, Fryerstate* state);
+	friend std::ostream& operator<<(std::ostream& os, Fryerstate* state);
 };
 #endif

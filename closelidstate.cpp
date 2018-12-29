@@ -31,7 +31,7 @@ void CloseLidState::stopCookButton()
 	cout << "cooking stopped" << endl;
 }
 
-string CloseLidState::getName()
+std::string CloseLidState::getName()
 {
 	return "CloseLidState";
 }
